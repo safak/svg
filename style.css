@@ -12,42 +12,64 @@ svg {
   margin: auto;
 }
 
-#rect {
-  stroke-dasharray: 780;
-  stroke-dashoffset: 0;
-  animation: moveRect 3s ease alternate infinite;
-}
-
-#circle {
-  stroke-dasharray: 540;
-  stroke-dashoffset: 0;
-  fill: white;
-  animation: moveCircle 3s ease alternate infinite;
-}
-
-#text{
-  opacity: 0;
-  animation: moveText 3s ease alternate infinite;
-}
-
-@keyframes moveRect {
-  to {
-    stroke-dashoffset: 780;
-  }
-}
-
-@keyframes moveCircle {
-  100% {
-    stroke-dashoffset: 540;
-    fill: #149538;
-  }
+#text {
+  font-size: 36px;
+  animation: moveText 5s ease forwards;
 }
 
 @keyframes moveText {
-  60%{
+  0%{
+    opacity: 1;
+  }
+  10%{
     opacity: 0;
   }
-  100% {
+  20%{
+    opacity: 1;
+  }
+  30%{
+    opacity: 0;
+  }
+  40%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  60%{
+    opacity: 1;
+  }
+  70%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+#rect{
+  animation: moveRect 5s ease forwards;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+}
+
+@keyframes moveRect{
+  to{
+    stroke-dashoffset: 0;
+    stroke-width: 300;
+    stroke: black;
+  }
+}
+
+#logo{
+  animation: moveLogo 5s ease forwards;
+}
+
+@keyframes moveLogo{
+  0%,70%{
+    opacity: 0;
+  }
+  100%{
     opacity: 1;
   }
 }
