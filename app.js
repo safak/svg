@@ -1,3 +1,3 @@
-const rect = document.querySelector("rect");
+const item = document.querySelector(".sign");
 
-console.log(rect.getTotalLength())
+console.log(item.getTotalLength())

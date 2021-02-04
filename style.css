@@ -12,64 +12,16 @@ svg {
   margin: auto;
 }
 
-#text {
-  font-size: 36px;
-  animation: moveText 5s ease forwards;
+.sign{
+  stroke-dasharray: 3020;
+  animation: moveSign 5s ease infinite;
 }
 
-@keyframes moveText {
-  0%{
-    opacity: 1;
+@keyframes moveSign{
+  from{
+    stroke-dashoffset: 3020;
   }
-  10%{
-    opacity: 0;
-  }
-  20%{
-    opacity: 1;
-  }
-  30%{
-    opacity: 0;
-  }
-  40%{
-    opacity: 1;
-  }
-  50%{
-    opacity: 0;
-  }
-  60%{
-    opacity: 1;
-  }
-  70%{
-    opacity: 0;
-  }
-  100%{
-    opacity: 0;
-  }
-}
-
-#rect{
-  animation: moveRect 5s ease forwards;
-  stroke-dasharray: 2000;
-  stroke-dashoffset: 2000;
-}
-
-@keyframes moveRect{
   to{
     stroke-dashoffset: 0;
-    stroke-width: 300;
-    stroke: black;
-  }
-}
-
-#logo{
-  animation: moveLogo 5s ease forwards;
-}
-
-@keyframes moveLogo{
-  0%,70%{
-    opacity: 0;
-  }
-  100%{
-    opacity: 1;
   }
 }
