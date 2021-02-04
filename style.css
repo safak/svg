@@ -12,18 +12,42 @@ svg {
   margin: auto;
 }
 
-#text {
-  font-size: 50px;
-  font-weight: bold;
-}
-
 #rect {
-  stroke-dasharray: 50;
-  animation: move 1s ease alternate infinite;
+  stroke-dasharray: 780;
+  stroke-dashoffset: 0;
+  animation: moveRect 3s ease alternate infinite;
 }
 
-@keyframes move {
+#circle {
+  stroke-dasharray: 540;
+  stroke-dashoffset: 0;
+  fill: white;
+  animation: moveCircle 3s ease alternate infinite;
+}
+
+#text{
+  opacity: 0;
+  animation: moveText 3s ease alternate infinite;
+}
+
+@keyframes moveRect {
   to {
-    stroke-dashoffset: 50;
+    stroke-dashoffset: 780;
+  }
+}
+
+@keyframes moveCircle {
+  100% {
+    stroke-dashoffset: 540;
+    fill: #149538;
+  }
+}
+
+@keyframes moveText {
+  60%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
