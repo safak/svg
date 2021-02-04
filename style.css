@@ -3,6 +3,10 @@
   overflow: hidden;
 }
 
+body{
+  background-color: cadetblue;
+}
+
 svg {
   position: absolute;
   top: 0;
@@ -12,16 +16,62 @@ svg {
   margin: auto;
 }
 
-.sign{
-  stroke-dasharray: 3020;
-  animation: moveSign 5s ease infinite;
+#text-1, #text-2{
+  font-size: 100px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  animation: moveText 5s ease forwards;
 }
 
-@keyframes moveSign{
-  from{
-    stroke-dashoffset: 3020;
-  }
+#text-1{
+  animation: moveText1 5s ease forwards;
+}
+
+#text-2{
+  animation: moveText2 5s ease forwards;
+}
+
+#shape{
+  stroke-width: 1.5;
+  stroke-dasharray: 5349;
+  stroke-dashoffset: 5349;
+  animation: moveShape 5s ease forwards;
+}
+
+@keyframes moveShape{
   to{
     stroke-dashoffset: 0;
+  }
+}
+
+@keyframes moveText1{
+  0%,60%{
+    opacity: 1;
+  }
+  70%,100%{
+    opacity: 0;
+  }
+}
+
+@keyframes moveText2{
+  0%,70%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+#icons{
+  animation: moveIcons 6s ease forwards ;
+}
+
+@keyframes moveIcons{
+  0%,70%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
   }
 }

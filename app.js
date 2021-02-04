@@ -1,3 +1,3 @@
-const item = document.querySelector(".sign");
+const item = document.querySelector("#shape");
 
 console.log(item.getTotalLength())
