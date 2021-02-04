@@ -1,0 +1,120 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="500" height="500" fill="#E5E5E5"/>
+<g id="Frame 1">
+<rect width="500" height="500" fill="white"/>
+<circle id="dough" cx="243" cy="243" r="200" fill="#BB600C"/>
+<path id="inner" d="M394.001 144.222C403.69 90.5616 248.88 93.9826 234.197 107.43C219.515 120.877 132.156 91.4994 105.392 144.222C73.4803 157.931 69.7421 192.736 74.928 277.527C112.76 355.979 137.714 395.717 234.197 407.632C249.825 441.235 402.16 332.985 402.553 289.791C402.945 246.597 462.656 240.336 394.001 144.222Z" fill="#FFBE83"/>
+<g id="pepperonies">
+<g id="pepperoni">
+<ellipse id="p-circle" cx="166.5" cy="175.5" rx="33.5" ry="32.5" fill="#AA0909"/>
+<g id="p-dots">
+<ellipse id="Ellipse 2" cx="151.5" cy="157" rx="2.5" ry="3" fill="white"/>
+<ellipse id="Ellipse 3" cx="171.5" cy="160" rx="5.5" ry="6" fill="white"/>
+<ellipse id="Ellipse 4" cx="149.5" cy="178" rx="5.5" ry="6" fill="white"/>
+<ellipse id="Ellipse 5" cx="175" cy="190" rx="6" ry="7" fill="white"/>
+<ellipse id="Ellipse 6" cx="186.5" cy="173.5" rx="1.5" ry="2.5" fill="white"/>
+</g>
+</g>
+<g id="pepperoni_2">
+<ellipse id="p-circle_2" cx="320.5" cy="145.5" rx="33.5" ry="32.5" fill="#AA0909"/>
+<g id="p-dots_2">
+<ellipse id="Ellipse 2_2" cx="305.5" cy="127" rx="2.5" ry="3" fill="white"/>
+<ellipse id="Ellipse 3_2" cx="325.5" cy="130" rx="5.5" ry="6" fill="white"/>
+<ellipse id="Ellipse 4_2" cx="303.5" cy="148" rx="5.5" ry="6" fill="white"/>
+<ellipse id="Ellipse 5_2" cx="329" cy="160" rx="6" ry="7" fill="white"/>
+<ellipse id="Ellipse 6_2" cx="340.5" cy="143.5" rx="1.5" ry="2.5" fill="white"/>
+</g>
+</g>
+<g id="pepperoni_3">
+<ellipse id="p-circle_3" cx="253.5" cy="250.5" rx="33.5" ry="32.5" fill="#AA0909"/>
+<g id="p-dots_3">
+<ellipse id="Ellipse 2_3" cx="238.5" cy="232" rx="2.5" ry="3" fill="white"/>
+<ellipse id="Ellipse 3_3" cx="258.5" cy="235" rx="5.5" ry="6" fill="white"/>
+<ellipse id="Ellipse 4_3" cx="236.5" cy="253" rx="5.5" ry="6" fill="white"/>
+<ellipse id="Ellipse 5_3" cx="262" cy="265" rx="6" ry="7" fill="white"/>
+<ellipse id="Ellipse 6_3" cx="273.5" cy="248.5" rx="1.5" ry="2.5" fill="white"/>
+</g>
+</g>
+<g id="pepperoni_4">
+<ellipse id="p-circle_4" cx="152.5" cy="304.5" rx="33.5" ry="32.5" fill="#AA0909"/>
+<g id="p-dots_4">
+<ellipse id="Ellipse 2_4" cx="137.5" cy="286" rx="2.5" ry="3" fill="white"/>
+<ellipse id="Ellipse 3_4" cx="157.5" cy="289" rx="5.5" ry="6" fill="white"/>
+<ellipse id="Ellipse 4_4" cx="135.5" cy="307" rx="5.5" ry="6" fill="white"/>
+<ellipse id="Ellipse 5_4" cx="161" cy="319" rx="6" ry="7" fill="white"/>
+<ellipse id="Ellipse 6_4" cx="172.5" cy="302.5" rx="1.5" ry="2.5" fill="white"/>
+</g>
+</g>
+<g id="pepperoni_5">
+<ellipse id="p-circle_5" cx="283.5" cy="351.5" rx="33.5" ry="32.5" fill="#AA0909"/>
+<g id="p-dots_5">
+<ellipse id="Ellipse 2_5" cx="268.5" cy="333" rx="2.5" ry="3" fill="white"/>
+<ellipse id="Ellipse 3_5" cx="288.5" cy="336" rx="5.5" ry="6" fill="white"/>
+<ellipse id="Ellipse 4_5" cx="266.5" cy="354" rx="5.5" ry="6" fill="white"/>
+<ellipse id="Ellipse 5_5" cx="292" cy="366" rx="6" ry="7" fill="white"/>
+<ellipse id="Ellipse 6_5" cx="303.5" cy="349.5" rx="1.5" ry="2.5" fill="white"/>
+</g>
+</g>
+<g id="pepperoni_6">
+<ellipse id="p-circle_6" cx="371.5" cy="222.5" rx="33.5" ry="32.5" fill="#AA0909"/>
+<g id="p-dots_6">
+<ellipse id="Ellipse 2_6" cx="356.5" cy="204" rx="2.5" ry="3" fill="white"/>
+<ellipse id="Ellipse 3_6" cx="376.5" cy="207" rx="5.5" ry="6" fill="white"/>
+<ellipse id="Ellipse 4_6" cx="354.5" cy="225" rx="5.5" ry="6" fill="white"/>
+<ellipse id="Ellipse 5_6" cx="380" cy="237" rx="6" ry="7" fill="white"/>
+<ellipse id="Ellipse 6_6" cx="391.5" cy="220.5" rx="1.5" ry="2.5" fill="white"/>
+</g>
+</g>
+</g>
+<g id="mushrooms">
+<g id="mushroom">
+<g id="Component 1">
+<rect id="Rectangle 1" x="140.727" y="239.256" width="22" height="45" rx="11" transform="rotate(-42.2248 140.727 239.256)" fill="#C4C4C4"/>
+<ellipse id="Ellipse 7" cx="158.789" cy="239.07" rx="27.5" ry="17" transform="rotate(-42.2248 158.789 239.07)" fill="#C4C4C4"/>
+</g>
+<g id="Component 2">
+<rect id="Rectangle 1_2" x="148.392" y="243.373" width="14" height="28.8" rx="7" transform="rotate(-42.2248 148.392 243.373)" fill="#8D8A8A"/>
+<ellipse id="Ellipse 7_2" cx="159.915" cy="243.287" rx="17.5" ry="10.88" transform="rotate(-42.2248 159.915 243.287)" fill="#8D8A8A"/>
+</g>
+</g>
+<g id="mushroom_2">
+<g id="Component 1_2">
+<rect id="Rectangle 1_3" x="243.85" y="146.698" width="22" height="45" rx="11" transform="rotate(32.2442 243.85 146.698)" fill="#C4C4C4"/>
+<ellipse id="Ellipse 7_3" cx="248.865" cy="164.05" rx="27.5" ry="17" transform="rotate(32.2442 248.865 164.05)" fill="#C4C4C4"/>
+</g>
+<g id="Component 2_2">
+<rect id="Rectangle 1_4" x="241.935" y="155.186" width="14" height="28.8" rx="7" transform="rotate(32.2442 241.935 155.186)" fill="#8D8A8A"/>
+<ellipse id="Ellipse 7_4" cx="245.104" cy="166.265" rx="17.5" ry="10.88" transform="rotate(32.2442 245.104 166.265)" fill="#8D8A8A"/>
+</g>
+</g>
+<g id="mushroom_3">
+<g id="Component 1_3">
+<rect id="Rectangle 1_5" x="206" y="324" width="22" height="45" rx="11" fill="#C4C4C4"/>
+<ellipse id="Ellipse 7_5" cx="219.5" cy="336" rx="27.5" ry="17" fill="#C4C4C4"/>
+</g>
+<g id="Component 2_3">
+<rect id="Rectangle 1_6" x="208.909" y="332.2" width="14" height="28.8" rx="7" fill="#8D8A8A"/>
+<ellipse id="Ellipse 7_6" cx="217.5" cy="339.88" rx="17.5" ry="10.88" fill="#8D8A8A"/>
+</g>
+</g>
+<g id="mushroom_4">
+<g id="Component 1_4">
+<rect id="Rectangle 1_7" x="326" y="267" width="22" height="45" rx="11" fill="#C4C4C4"/>
+<ellipse id="Ellipse 7_7" cx="339.5" cy="279" rx="27.5" ry="17" fill="#C4C4C4"/>
+</g>
+<g id="Component 2_4">
+<rect id="Rectangle 1_8" x="328.909" y="275.2" width="14" height="28.8" rx="7" fill="#8D8A8A"/>
+<ellipse id="Ellipse 7_8" cx="337.5" cy="282.88" rx="17.5" ry="10.88" fill="#8D8A8A"/>
+</g>
+</g>
+</g>
+<g id="peppers">
+<rect id="pepper" x="112" y="184" width="7" height="41" rx="3.5" fill="#115605"/>
+<rect id="pepper" x="191.568" y="136.584" width="4.54106" height="63.7379" rx="2.27053" transform="rotate(-101.898 191.568 136.584)" fill="#115605"/>
+<rect id="pepper" x="156" y="354.832" width="4.98022" height="47.1025" rx="2.49011" transform="rotate(-75.9727 156 354.832)" fill="#115605"/>
+<rect id="pepper" x="209" y="193" width="8" height="63" rx="4" fill="#115605"/>
+<rect id="pepper" x="309.514" y="296" width="8" height="63" rx="4" transform="rotate(82.8761 309.514 296)" fill="#115605"/>
+<rect id="pepper" x="297.368" y="205.042" width="8" height="40.4359" rx="4" transform="rotate(-30.2178 297.368 205.042)" fill="#115605"/>
+</g>
+</g>
+</svg>
