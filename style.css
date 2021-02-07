@@ -1,61 +1,64 @@
 * {
   margin: 0;
-  overflow: hidden;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 svg {
+  width: 100%;
+  height: 100%;
+}
+
+ul{
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
+  list-style: none;
+  font-size: 32px;
+  font-weight: bold;  
+  display: none;
+  color: white;
 }
 
-#letter {
-  animation: letter 2s ease-in-out forwards;
+li{
+  margin: 10px;
 }
 
-@keyframes letter {
+.list.active{
+  display: block;
+}
+
+.lines{
+  cursor: pointer;
+}
+
+.circle.active{
+  animation: move 2s ease forwards;
+}
+
+@keyframes move {
   to {
-    transform: translateY(220px);
+    r: 2000;
   }
 }
 
-#tri {
-  animation: tri 2s 2s ease-in-out forwards;
+.line{
+  transform-origin: left;
+  transform-box: fill-box;
+  transition: all 2s ease;
 }
 
-@keyframes tri {
-  from,
-  to {
-    opacity: 0;
-  }
+.line-1.active{
+  transform: rotate(45deg);
 }
 
-#tri2 {
-  animation: tri2 2s 2s ease-in-out forwards;
+.line-2.active{
   opacity: 0;
 }
 
-@keyframes tri2 {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 1;
-    d: path(
-      "M92 218H396.5L710.5 217.5L420.813 434.304C406.441 445.06 386.663 444.924 372.44 433.971L92 218Z"
-    );
-  }
-}
-
-#frame {
-  animation: frame 0.5s 4s ease-in-out forwards;
-}
-
-@keyframes frame {
-  to{
-    transform: translateX(1000px);
-  }
+.line-3.active{
+  transform: rotate(-45deg);
 }
