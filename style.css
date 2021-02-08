@@ -6,59 +6,210 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
 }
 
 svg {
-  width: 100%;
   height: 100%;
+  width: 100%;
+  border: 1px solid black;
 }
 
-ul{
-  position: absolute;
-  list-style: none;
-  font-size: 32px;
-  font-weight: bold;  
-  display: none;
-  color: white;
+#spaceship {
+  animation: spaceship 10s ease-in-out;
 }
 
-li{
-  margin: 10px;
-}
-
-.list.active{
-  display: block;
-}
-
-.lines{
-  cursor: pointer;
-}
-
-.circle.active{
-  animation: move 2s ease forwards;
-}
-
-@keyframes move {
-  to {
-    r: 2000;
+@keyframes spaceship {
+  0% {
+    transform: translateY(-200px);
+  }
+  30% {
+    transform: translateY(50px);
+  }
+  70% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(-200px);
   }
 }
 
-.line{
-  transform-origin: left;
+#rays {
+  animation: rays 10s linear;
+  transform: translateY(50px);
+}
+
+@keyframes rays {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  35% {
+    opacity: 1;
+    fill: red;
+  }
+  40% {
+    fill: #6c63ff;
+  }
+  45% {
+    fill: red;
+  }
+  50% {
+    fill: #6c63ff;
+  }
+  55% {
+    fill: red;
+  }
+  60% {
+    fill: #6c63ff;
+  }
+  65% {
+    opacity: 1;
+    fill: red;
+  }
+  70%,
+  100% {
+    opacity: 0;
+  }
+}
+
+#c-1 {
+  animation: c1 10s linear;
+}
+
+@keyframes c1 {
+  35% {
+    transform: translateY(0);
+  }
+  65% {
+    transform: translateY(-200px);
+  }
+  100% {
+    transform: translateY(-470px);
+  }
+}
+
+#arm-l {
+  animation: c1Larm 10s linear;
+  transform-origin: right top;
   transform-box: fill-box;
-  transition: all 2s ease;
+}
+#arm-r {
+  animation: c1Rarm 10s linear;
+  transform-origin: left top;
+  transform-box: fill-box;
 }
 
-.line-1.active{
-  transform: rotate(45deg);
+@keyframes c1Larm {
+  35% {
+    transform: rotate(0);
+  }
+  40%,
+  100% {
+    transform: rotate(70deg);
+  }
 }
 
-.line-2.active{
-  opacity: 0;
+@keyframes c1Rarm {
+  35% {
+    transform: rotate(0);
+  }
+  40%,
+  100% {
+    transform: rotate(-70deg);
+  }
 }
 
-.line-3.active{
-  transform: rotate(-45deg);
+#leg-l,
+#leg-r {
+  animation: c1leg 10s linear;
+  transform-origin: top;
+  transform-box: fill-box;
+}
+
+@keyframes c1leg {
+  35% {
+    transform: rotate(0);
+  }
+  40%,
+  44%,
+  48%,
+  52%,
+  56%,
+  60% {
+    transform: rotate(20deg);
+  }
+  42%,
+  46%,
+  50%,
+  54%,
+  58% {
+    transform: rotate(-20deg);
+  }
+}
+
+#mouth {
+  animation: mouth1 10s linear;
+}
+
+@keyframes mouth1 {
+  25%,
+  100% {
+    d: path(
+      "M178.812 386.362C179.064 387.742 178.756 389.166 177.957 390.319C177.158 391.473 175.933 392.262 174.551 392.513C173.17 392.764 171.745 392.457 170.59 391.659C169.435 390.861 168.645 389.637 168.394 388.257L168.392 388.247C167.871 385.372 170.096 384.355 172.973 383.835C175.851 383.314 178.291 383.488 178.812 386.362Z"
+    );
+  }
+}
+
+#eye-i {
+  animation: eye1 10s linear;
+}
+
+@keyframes eye1 {
+  25%,
+  100% {
+    transform: translate(-5px,-5px);
+  }
+}
+
+#eye-i_2 {
+  animation: eye2 10s linear;
+}
+
+@keyframes eye2 {
+  25%,
+  100% {
+    transform: translate(-1px,-5px);
+  }
+}
+
+#mouth_2 {
+  animation: mouth2 10s linear;
+}
+
+@keyframes mouth2 {
+  25%,
+  100% {
+    d: path(
+      "M299.799 388.661C301.631 388.661 303.117 387.176 303.117 385.345C303.117 383.514 301.631 382.03 299.799 382.03C297.966 382.03 296.48 383.514 296.48 385.345C296.48 387.176 297.966 388.661 299.799 388.661Z"
+    );
+  }
+}
+
+#arm-l_2{
+  animation: c2arm 10s linear;
+  transform-origin: right;
+  transform-box: fill-box;
+}
+
+@keyframes c2arm{
+  40%{
+    transform: rotate(0);
+  }
+  45%,100%{
+    transform: rotate(70deg);
+  }
 }
